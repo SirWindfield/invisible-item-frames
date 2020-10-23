@@ -1,8 +1,7 @@
 name: Continuous Deployment
 on:
   push:
-    branch: master
-    tag: "v*"
+    tags: "v*"
 
 jobs:
   create_data_pack:
